@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const apiKey = '8864faee5a5043a388c71f5c6c7de6e2'; // Ganti dengan API key yang valid
-    const apiUrl = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=' + apiKey;
+    const apiUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2024-04-04&sortBy=publishedAt&apiKey=' + apiKey;
 
     fetchNews(apiUrl);
 
